@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+}
+
+.page{
+    width: 100%;
+    height: 100vh;
+    background: #eee;
+}
+
+.conteiner2, .conteiner3, .conteiner4, .conteiner5, .conteiner6, .conteiner7{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    background-color: #fe33ba;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteiner1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    background-color: #fe33ba;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteinerContent1_1, .conteinerContent2_1, .conteinerContent3_1, .conteinerContent4_1, .conteinerContent6_1{
+    height: 100px;
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+h2{
+    font-weight: bold;
+}
+
+.conteinerContent1_2, .conteinerContent2_2, .conteinerContent3_2, .conteinerContent4_2, .conteinerContent5_2{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input{
+    margin-left: 30px;
+}
+
+#answer1_1, #answer2_1, #answer2_1, #answer3_1, #answer4_1, #answer5_1{
+    margin-left: 0;
+}
+
+.btn_content1_3, .btn_content2_3, .btn_content3_3, .btn_content4_3, .btn_content5_3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    color: white;
+    width: 50%;
+    height: 45px;
+    border-radius: 25px;
+    transition: .2s ease-in-out;
+    text-shadow: 0 -1px 2px rgba(0,0,0,.2);
+    background: linear-gradient(rgb(76 76 76), rgb(48 48 48), rgb(21 21 21));
+    box-shadow:  0 1px rgba(255,255,255,.2) inset, 0 0 1px 1px rgba(0,1,6,.2);;
+}
+
+button:hover{
+    background: linear-gradient(rgb(126,126,134), rgb(70,71,76)) rgb(126,126,134);
+}
+button:active{
+    top: 1px;
+    background: linear-gradient(rgb(76,77,82), rgb(56,57,62)) rgb(76,77,82);
+    box-shadow: 0 0 1px rgba(0,0,0,.5) inset, 0 2px 3px rgba(0,0,0,.5) inset, 0 1px 1px rgba(255,255,255,.1);
+}
